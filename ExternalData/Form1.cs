@@ -42,7 +42,7 @@ namespace ExternalData
                 AddStudentToDb(student);
             }
         }
-
+        //Where the user input gets sent to data
         public void AddStudentToDb(Student student)
         {
             using (SqlConnection conn = new SqlConnection(connectionString))
